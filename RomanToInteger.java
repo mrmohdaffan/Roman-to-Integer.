@@ -28,10 +28,8 @@ public class RomanToInteger {
             }
             prevValue = currentValue;
         }
-
         return result;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a Roman numeral: ");
